@@ -1,0 +1,22 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: grub-enable-apparmor
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git, config-package-dev (>= 5.1)
+Homepage: https://github.com/Whonix/grub-enable-apparmor
+Vcs-Browser: https://github.com/Whonix/grub-enable-apparmor
+Vcs-Git: https://github.com/Whonix/grub-enable-apparmor.git
+Standards-Version: 3.9.4
+
+Package: grub-enable-apparmor
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Architecture: all
+Depends: ${misc:Depends}
+Description: Enables AppArmor and Verbose Output during Boot
+ Modifies /etc/default/grub. Removes "quiet" from GRUB_CMDLINE_LINUX_DEFAULT,
+ adds"vga=0x0317 apparmor=1 security=apparmor" to GRUB_CMDLINE_LINUX_DEFAULT.
