@@ -1,4 +1,4 @@
-grub-enable-apparmor (0.1-1) UNRELEASED; urgency=low
+grub-enable-apparmor (3:0.1-1) UNRELEASED; urgency=low
 
   * Initial release.
 
