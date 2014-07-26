@@ -18,5 +18,8 @@ Conflicts: ${diverted-files}
 Architecture: all
 Depends: ${misc:Depends}
 Description: Enables AppArmor and Verbose Output during Boot
- Modifies /etc/default/grub. Removes "quiet" from GRUB_CMDLINE_LINUX_DEFAULT,
- adds "vga=0x0317 apparmor=1 security=apparmor" to GRUB_CMDLINE_LINUX_DEFAULT.
+ Modifies /etc/default/grub. Removes "quiet" from GRUB_CMDLINE_LINUX_DEFAULT.
+ And adds "vga=0x0317 apparmor=1 security=apparmor" to
+ GRUB_CMDLINE_LINUX_DEFAULT.
+ .
+ For better security/usability.
