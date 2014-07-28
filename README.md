@@ -1,7 +1,10 @@
 # Enables AppArmor and Verbose Output during Boot #
 
-Modifies /etc/default/grub. Removes "quiet" from GRUB_CMDLINE_LINUX_DEFAULT,
-adds "vga=0x0317 apparmor=1 security=apparmor" to GRUB_CMDLINE_LINUX_DEFAULT.
+Modifies /etc/default/grub. Removes "quiet" from GRUB_CMDLINE_LINUX_DEFAULT.
+And adds "vga=0x0317 apparmor=1 security=apparmor" to
+GRUB_CMDLINE_LINUX_DEFAULT.
+
+For better security/usability.
 
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
