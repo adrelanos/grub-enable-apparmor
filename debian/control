@@ -6,7 +6,7 @@ Source: grub-enable-apparmor
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 8), faketime, config-package-dev (>= 5.1)
+Build-Depends: debhelper (>= 8), faketime
 Homepage: https://github.com/Whonix/grub-enable-apparmor
 Vcs-Browser: https://github.com/Whonix/grub-enable-apparmor
 Vcs-Git: https://github.com/Whonix/grub-enable-apparmor.git
@@ -17,9 +17,8 @@ Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Architecture: all
 Depends: ${misc:Depends}
-Description: Enables AppArmor and Verbose Output during Boot
- Modifies /etc/default/grub. Removes "quiet" from GRUB_CMDLINE_LINUX_DEFAULT.
- And adds "vga=0x0317 apparmor=1 security=apparmor" to
- GRUB_CMDLINE_LINUX_DEFAULT.
+Description: Enables AppArmor in Grub Settings
+ Ships a /etc/default/grub.d/30_apparmor.cfg configuration file, that injects
+ "apparmor=1 security=apparmor" into the  GRUB_CMDLINE_LINUX_DEFAULT variable.
  .
  For better security/usability.
