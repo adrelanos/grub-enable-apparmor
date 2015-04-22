@@ -1,3 +1,16 @@
+commit 4f91452b701b467ae9471291f270b95ba4d85479
+Merge: 1ce2f8b 2d2ff90
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 22 16:03:31 2015 +0000
+
+    Thanks to the new /etc/default/grub.d configuration folder, the grub-enable-apparmor package has been greatly simplified. No longer need to config-package-dev divert /etc/default/grub. - https://phabricator.whonix.org/T25
+
+commit 1ce2f8b0ba39411374530e3636b43671d7179950
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 17:41:43 2015 +0000
+
+    bumped changelog version
+
 commit ba865744d2a1ef58742c26dcef2e011a41db9452
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 2 18:41:11 2015 +0000
@@ -52,11 +65,29 @@ Date:   Wed Jan 7 19:33:42 2015 +0000
 
     bumped compat from 8 to 9
 
+commit 2d2ff909a3f67fd7b4984eb88d28164a2d4663a4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Dec 7 19:22:49 2014 +0000
+
+    override with || true just in case for better robustness
+
 commit 576827a7afe211c852deef15a3a79c9f463e11c4
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Dec 5 19:01:12 2014 +0000
 
     updated generic makefile
+
+commit 7196f59673112b2b5f668a97eb6cf4e34bb4e0be
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Nov 26 23:34:09 2014 +0000
+
+    cleanup
+
+commit 75394b126427e073ce7244dfc944b40bef324e43
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Nov 26 23:29:15 2014 +0000
+
+    Refactoring. Simplified for Debian jessie. Thanks to the new `/etc/default/grub.d` configuration folder, the `grub-enable-apparmor` has been greatly simplified. No longer need to config-package-dev divert `/etc/default/grub`.
 
 commit a7e3fe7182ada6aca67c157567be99b5ab6222aa
 Author: Patrick Schleizer <adrelanos@riseup.net>
