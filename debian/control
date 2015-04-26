@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9), faketime, genmkfile
 Homepage: https://github.com/Whonix/grub-enable-apparmor
 Vcs-Browser: https://github.com/Whonix/grub-enable-apparmor
 Vcs-Git: https://github.com/Whonix/grub-enable-apparmor.git
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 
 Package: grub-enable-apparmor
 Architecture: all
