@@ -1,3 +1,15 @@
+commit 85aa341ef3fe9eb72ea21e6c7ad059c2bbb87e94
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 15 14:19:47 2015 +0000
+
+    fixed, moved from etc/grub.d/30_apparmor.cfg to etc/default/grub.d/30_apparmor.cfg since the path has changed since release of jessie
+
+commit 058426e0b808e47c49c65654ac8f159723eef33d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 30 17:56:19 2015 +0000
+
+    bumped changelog version
+
 commit de3cc2c726e3ce19b564f4b852e110a878c7d93c
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Apr 28 13:43:11 2015 +0000
