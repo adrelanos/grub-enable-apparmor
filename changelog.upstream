@@ -1,3 +1,15 @@
+commit b99978709575365b99bebf4ca3bda129890f7d97
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 9 20:14:22 2015 +0000
+
+    backwards compatiblity fix with Whonix 10, restore original /etc/default/grub
+
+commit 73e0314e1c253761a8238f552b43abbd1deef378
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 14:59:42 2015 +0000
+
+    bumped changelog version
+
 commit 82e1e0ee8d6144ac1c7b538f53dff842cd57db07
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri May 15 14:21:39 2015 +0000
