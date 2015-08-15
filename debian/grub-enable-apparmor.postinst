@@ -16,6 +16,9 @@ true "
 #####################################################################
 "
 
+## https://phabricator.whonix.org/T377
+## Debian has no update-grub trigger yet:
+## https://bugs.debian.org/481542
 if command -v update-grub >/dev/null 2>&1; then
    update-grub || \
       echo "$DPKG_MAINTSCRIPT_PACKAGE $DPKG_MAINTSCRIPT_NAME ERROR: Running \
