@@ -1,8 +1,7 @@
-# Enables AppArmor and Verbose Output during Boot #
+# Enables AppArmor in Grub Settings #
 
-Modifies /etc/default/grub. Removes "quiet" from GRUB_CMDLINE_LINUX_DEFAULT.
-And adds "vga=0x0317 apparmor=1 security=apparmor" to
-GRUB_CMDLINE_LINUX_DEFAULT.
+Ships a /etc/default/grub.d/30_apparmor.cfg configuration file, that injects
+"apparmor=1 security=apparmor" into the  GRUB_CMDLINE_LINUX_DEFAULT variable.
 
 For better security/usability.
 
