@@ -18,4 +18,8 @@ Description: Enables AppArmor in Grub Settings
  Ships a /etc/default/grub.d/30_apparmor.cfg configuration file, that injects
  "apparmor=1 security=apparmor" into the  GRUB_CMDLINE_LINUX_DEFAULT variable.
  .
+ Package was designed with grub not being installed not causing any issues in
+ mind. Neither depend on grub nor shows any error messages if grub in
+ unavailable.
+ .
  For better security/usability.
