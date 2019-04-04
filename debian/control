@@ -5,11 +5,11 @@ Source: grub-enable-apparmor
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 9), genmkfile, config-package-dev
+Build-Depends: debhelper (>= 12), genmkfile, config-package-dev
 Homepage: https://github.com/Whonix/grub-enable-apparmor
 Vcs-Browser: https://github.com/Whonix/grub-enable-apparmor
 Vcs-Git: https://github.com/Whonix/grub-enable-apparmor.git
-Standards-Version: 3.9.8
+Standards-Version: 4.3.0
 
 Package: grub-enable-apparmor
 Architecture: all
