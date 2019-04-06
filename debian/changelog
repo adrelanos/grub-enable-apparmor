@@ -1,3 +1,9 @@
+grub-enable-apparmor (3:2.5-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 06 Apr 2019 12:04:49 +0000
+
 grub-enable-apparmor (3:2.4-1) unstable; urgency=medium
 
   * New upstream version (local package).
